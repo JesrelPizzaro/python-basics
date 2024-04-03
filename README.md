@@ -1,7 +1,19 @@
-# Welcome to streamlit
+# Flask JSON App
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+This is a simple Flask application that serves JSON data.
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+## Getting Started
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- [Python](https://www.python.org/downloads/) installed on your machine
+- [Docker](https://docs.docker.com/get-docker/) (optional, if you want to run the app in a Docker container)
+
+### Installing
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/flask-json-app.git

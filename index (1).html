@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Prediction</title>
+</head>
+<body>
+    <h1>Salary Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="years_of_experience">Years of Experience:</label>
+        <input type="number" id="years_of_experience" name="years_of_experience" step="0.1" required><br><br>
+        
+        <label for="education_level">Education Level (1 for Bachelor's, 2 for Master's, 3 for Ph.D.):</label>
+        <input type="number" id="education_level" name="education_level" min="1" max="3" required><br><br>
+        
+        <label for="job_title">Job Title (1 for Junior, 2 for Senior, 3 for Manager):</label>
+        <input type="number" id="job_title" name="job_title" min="1" max="3" required><br><br>
+        
+        <input type="submit" value="Predict Salary">
+    </form>
+</body>
+</html>
